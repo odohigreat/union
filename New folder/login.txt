@@ -1,0 +1,80 @@
+<!doctype html>
+ <html>
+  <head>
+   <title>layout</title>
+    <style>
+		body{
+	margin:o;
+	text-align:center;
+	}
+	hr{
+	background-color:#f8f5f1;
+	}
+	h1{
+	color:#e4f9f5;
+	font-family:ravie;
+	font-style:bold;
+	}
+	p{
+	font-family:courier;
+	}
+	input[type=text]{
+	width:60;
+	padding:8px 20px;
+	box-sizing:border-box;
+	border:3px solid #3db2ff;
+	-webkit-transition:0.5s;
+	transition:0.5s;
+	outline:none;
+	}
+	input[type=text]:focus{
+	border:3px solid #f8f5f1;
+	}
+	.div{
+	background-color:#ffb830;
+	float:right;}
+
+	a:link,visited{
+	background-color:#3DB2FF;
+	color:black;
+	padding:14px 14px;
+	text-decoration:none;
+	display:inline-block;
+	text-align:center;
+	}
+	a:hover,a:active{
+	background-color:#f7fd04;}
+	img{
+	width:40px;
+	height:40px;
+	}
+	.imt{
+	height:250%; 
+	width:100%;
+	}
+	
+	</style>
+	<body>
+	<img class="imt" src="login.jpg" alt="cartoon-images">
+	<div class="div">
+	<h1> please login your account here </h1>
+	name:<input type="text" value="name"><br>
+<br>
+	password:<input type="text" value="password"><br>
+<br>
+	phone number:<input type="text" value="phone number"><br>
+<br>
+	<a style="float:right;" href="http://welcome.html">login</a>
+	
+	<a style="float:left;" href="http://creat account.html">creat account</a>
+	<hr>
+
+	<p>share with</p>
+	<img class="images" src="facebook.jpg" alt="facebook-images">
+	 <img class="images" src="goggle.jpg" alt="goggle.jpg">
+	   <img class="images" src="tiwter.jpg" alt="tiwter-images">
+	     <img class="images" src="whatsapp.jpg" alt="whatsapp-images">
+	<p>thanks</p>
+		</div>
+</body>
+</html>

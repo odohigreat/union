@@ -1,0 +1,214 @@
+﻿<!doctype html>
+ <html>
+  <head>
+   <title>layout</title>
+    <style>
+		body{
+	margin:o;
+	text-align:center;
+	}
+	hr{
+	background-color:#f8f5f1;
+	}
+	h1{
+	color:#e4f9f5;
+	font-family:ravie;
+	font-style:bold;
+	}
+	p{
+	font-family:courier;
+	}
+
+	
+	.left{
+	width:100x;
+	heighy:100px;
+	}
+	input[type=text]{
+	width:80%;
+	padding:8px 20px;
+	box-sizing:border-box;
+	border:3px solid #3db2ff;
+	-webkit-transition:0.5s;
+	transition:0.5s;
+	outline:none;
+	}
+	input[type=text]:focus{
+	border:3px solid #f8f5f1;
+	}
+	.droptn{
+	background-color:#4caf50;
+	color:white;
+	padding:16px;
+	font-size:16px;
+	border:none;
+	cursor:pointer;
+	}
+	.dropdown{
+	postion:relative;
+	display:inline-block;
+	}
+	.dropdown-content{
+	display:none;
+	postion:absolute;
+	right:0;
+	backhround-color:#f9f9f9;
+	min-width:160px;
+	box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index:1;
+	}
+	.dropdown-content a{
+	color:black;
+	padding:12px 16px;
+	text-decoration:none;
+	display:block;
+	}
+	.dropdown-content a:hover{
+	background-color:#f1f1f1;
+	}
+	dropdown:hover.dropdown-content{
+	display:block;
+	}
+	.dropdown:hover.droptn{
+	background-color:#3e8e41;
+	}
+	a:link,visited{
+	background-color:#3DB2FF;
+	color:black;
+	padding:14px 14px;
+	text-decoration:none;
+	display:inline-block;
+	text-align:center;
+	}
+	a:hover,a:active{
+	background-color:#f7fd04;
+	} 
+	h2{
+	color:#66fbfb;
+	}
+	.right{
+		width:90%;
+		height:90%;
+		margin:50px;
+		}
+		.images{
+			height:40px;
+			width:40px;
+			}
+			#p01{
+				display:inline;}
+	.cloo{
+		background-color:#CEE5D0;}
+	h3{
+	color:#E3E8F8;}
+	.divr{
+	background-coloe:#f7fd04;
+	height:79px;}
+
+* {	
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+	.pro{
+	width:100%;
+	height:250%;
+	}
+
+
+	</style>
+   </head>
+	<body>
+	<div class="divr">
+	<img class="left" src="uion.jpg" alt="uion-jpg">
+	</div>
+	<h1>pramgging school</h1>
+	<a style="float:right;" href="creataccount.html">creat account</a>
+	<a style="float:left;" href="login.html"> login</a>
+			<br>
+		<input type="text" value="search">
+	 <h2>welcome!!</h2>
+	<div>
+	<p>union progmming school</p>
+  <img class="pro" src="pro.jpg"alt="pro-images" >
+ 
+
+
+	<a style="float:left; "href="event.html">event</a>
+	<a style="float:right;" href="http://paymentbill.html">payment bill</a>
+	<hr>
+	 <p>union progmming school is one of the best programming school world wide.</p>
+	  <u>achivement of[UPS]</u>
+		<center>
+	   	 <ul>
+		<li>won the best robotics programmer</li>
+			<li>won the best html [designing website]</li>
+		</ul>
+		</center>
+		<hr>
+		<p>you can contact us on:</p>
+		<a id="po1" href="http://www.socialmedia.com">
+	<img class="images" src="facebook.jpg" alt="facebook-images">
+	</a>
+	<a id="po1" href="http://www.socialmedia.com">
+	 <img class="images" src="goggle.jpg" alt="goggle.jpg">
+	</a>
+		<a id="po1" href="http://www.socialmedia.com">
+	   <img class="images" src="tiwter.jpg" alt="tiwter-images">
+		</a>
+			<a id="po1" href="http://www.socialmedia.com">
+	     <img class="images" src="whatsapp.jpg" alt="whatsapp-images">
+		</a>
+	<hr>
+	<p>choose the type of lesson you what:</p>
+	 <a style="float:right;" href="http://atschool.html">at school</a>
+	   <a style="float:left;" href="http://e-lesson.html">e-lesson</a> 
+
+	<p>don't have account</p>
+		<p>please click on creat account</p>
+	<hr>
+
+	<div class="cloo">
+		<h1>copy right @2021</h1>
+		<p>contect us try zoom:<br>1.odhigreat@gmail.com</p>
+	<u>owned by</u>
+	 <p>edetan kingsley [jnr]</p><br>
+	  <p>and</p>
+	<p>odhi-dickson great</p>
+<form class="example" action="/action_page.php">
+  <input type="text" placeholder="messeges us..." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+	<h1>thanks for see this site</h1>v
+	</div>	
+	</body>	
+</html>	
